@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+	left: 0;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 0px;
+    
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0px;
+   
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	left: 0;
+    height: auto;
+	float: left;
+	column-count: 4;
+	column-gap: 50px;
+	
+	
+
+}
+.dropdown-content a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    margin: 0 0 0 0;
+    padding: 6px 6px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: block-inline;
+	font-size: 14px;
+	font-family: Arial;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+	
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<h2>Navigation Menu</h2>
+<p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+
+<div class="navbar">
+   <a href="#Home">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Customer Service 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+        <a href="#home">Kent CS</a>
+	    <a href="#home">TCS CS</a>
+		<a href="#home">Persistent CS</a>
+	    <a href="#home">Honda CS</a>
+		<a href="#home">Maruti CS</a>
+	    <a href="#home">Hero CS</a>
+		<a href="#home">Samsung CS</a>
+	    <a href="#home">Tech Mahindra CS</a>
+		<a href="#home">MI CS</a>
+	    <a href="#home">Honor CS</a>
+		<a href="#home">Dell CS</a>
+	    <a href="#home">HP CS</a>
+		<a href="#home">Apple CS</a>
+	    <a href="#home">ASUS CS</a>
+		<a href="#home">Sony CS</a>
+	    <a href="#home">Gran Master Cs</a>
+		<a href="#home">Tata CS</a>
+		<a href="#home">Reliance CS</a>
+	    <a href="#home">Reliance Jio CS</a>
+		<a href="#home">Fastrack CS</a>
+	    <a href="#home">Puma CS</a>
+		<a href="#home">Reebok CS</a>
+	    <a href="#home">Campus CS</a>
+		<a href="#home">ZARA CS</a>
+	    <a href="#home">Denim CS</a>
+		<a href="#home">Buffalo CS</a>
+	    <a href="#home">Nike CS</a>
+		</div>
+  </div>
+   <a href="#About">About</a>
+   <a href="#Contact Us">Contact us</a>
+   <a href="#Testimonial">Testimonial</a> 
+</div>
+
+</body>
+</html>
